@@ -11,7 +11,7 @@ const nextConfig = {
 
   // SASS support
   sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
+    includePaths: ["src/styles"],
   },
 }
 
