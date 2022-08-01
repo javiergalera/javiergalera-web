@@ -2,6 +2,17 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+
+  // Next.js internalization
+  i18n: {
+    locales: ['en-US', 'es-ES'],
+    defaultLocale: 'en-US',
+  },
+
+  // SASS support
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
 }
 
 module.exports = nextConfig
