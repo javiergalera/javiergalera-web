@@ -12,7 +12,9 @@ const nextConfig = {
 
   // Internationalization
   i18n: {
+    // Providing the locales supported by the application.
     locales: ['en', 'es'],
+    // Default locale used when the non-locale paths are visited.
     defaultLocale: 'en',
   },
 }

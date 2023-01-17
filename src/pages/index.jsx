@@ -17,13 +17,13 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoSpace from '@/images/logos/space.svg'
+import logoEndalia from '@/images/logos/endalia.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
+
+import { useTranslation } from 'next-i18next'
 
 function MailIcon(props) {
   return (
@@ -139,35 +139,24 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'Space',
+      title: 'CEO & iOS Software Engineer',
+      logo: logoSpace,
+      start: '2020',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
-    },
-    {
-      company: 'Facebook',
+      company: 'Endalia',
       title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      logo: logoEndalia,
+      start: '2022',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
     },
   ]
 
@@ -247,11 +236,13 @@ function Photos() {
 }
 
 export default function Home({ articles }) {
+  const { t } = useTranslation('common')
+
   return (
     <>
       <Head>
         <title>
-          Javier Galera - Software Engineer
+          {t('title')}
         </title>
         <meta
           name="description"
