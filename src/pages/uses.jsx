@@ -54,7 +54,7 @@ export default function Uses() {
               Something about all the gestures makes me feel really productive even if the mouse is not really comfy. The keyboard is good enough, and I consider it one of the best looking keyboards out there.
             </Tool>
             <Tool title="HomePod mini">
-              In case you are wondering, yep, I’m an Apple fan. I just love their products. The HomePod mini is a great speaker, and it’s perfect for my room. I use it to listen to music, podcasts, and even to control my lights and other smart devices.
+              In case you are wondering, yep, I’m an Apple fan. I love their products. The HomePod mini is a great speaker, and it’s perfect for my room. I use it to listen to music, podcasts, and even to control my lights and other smart devices.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">

@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Javier Galera</title>
         <meta
           name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
+          content="I’m Javier Galera. I live in Spain, where I forge stars."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,58 +61,56 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
-              future.
+              I’m Javier Galera. I live in Spain, where I forge stars.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                I’ve loved forging things for as long as I can remember, and
+                wrote my first program when I was 11 years old, a basic program that helped me memorize the subjects I hated the most (Ahem, literature, ahem!).
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+                The only thing I loved as much as than computers as a kid was space and drawing.
+                I was so obsessed with space that I only thought about being an astronaut so I could explore everything out there.<br />
+                When I was 10, I stumbled upon a video of Steve Jobs talking about his vision about technology.
+                Something clicked on my head, I finally found someone who shared a similar vision to me. 
+                That day, I knew that I needed to create something big, create my own company.
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
+                I spent the next few summers writing down and drawing ideas, improving my programming skills, and of course, thinking about the name, and I came out with a temporary name, <em>ProjectDream</em>.<br />
               </p>
               <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
+                When I was 16 years old, a movie came out in theaters, and a friend and I went to see it together, it was called <em>Interstellar.</em><br />
+                That movie became my favorite movie of all time that day.<br />
+              </p>
+              <p>
+                The day after, my friend and I went for a walk in the middle of the night, we stargazed for some hours and we talked about the space.<br />
+                The space, filled with mistery and possibilities. And those stars were shining in that infinite black sky, a beacon of hope. They were guiding us for centuries. That night, I knew the name that my company should have.
+              </p>
+              <p>
+                Today, I’m an iOS Software Engineer and the founder of <b>Space</b>, where we’re working on <em>forging</em> the best products possible, with only one goal on mind, to help people reach the endless possibilities that this world offers — we are <em>forging stars</em>.
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
+              <SocialLink href="https://twitter.com/javiergalera98" icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              <SocialLink href="https://instagram.com/javiergalera98" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+              <SocialLink href="https://github.com/javiergalera98" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+              <SocialLink href="https://www.linkedin.com/in/javiergalera98/" icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:spencer@planetaria.tech"
+                href="mailto:hello@javiergalera.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                spencer@planetaria.tech
+                hello@javiergalera.com
               </SocialLink>
             </ul>
           </div>

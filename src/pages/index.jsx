@@ -252,13 +252,12 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Software Engineer, Entrepreneur, and Space Enthusiast.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Space, where we forge
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Javier, a software developer and entrepeneur based in Spain. 
+            I’m the founder and CEO of Space, where we forge
+            technologies with the goal of making a better world.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -293,8 +292,7 @@ export default function Home({ articles }) {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
-            <Resume />
+            <Resume/>
           </div>
         </div>
       </Container>
