@@ -140,7 +140,7 @@ function Resume() {
   let resume = [
     {
       company: 'Space',
-      title: 'CEO & iOS Software Engineer',
+      title: 'Founder CEO',
       logo: logoSpace,
       start: '2020',
       end: {
