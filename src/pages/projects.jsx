@@ -3,48 +3,24 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoThrivee from '@/images/logos/thrivee.svg'
+import logoPamplonaNegra from '@/images/logos/pamplona-negra.png'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Thrivee',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'An all-new iOS app to help you achieve your goals teaching you to focus on the journey, not the destination.',
+    link: { href: 'http://www.thrivee.app', label: 'Coming soon' },
+    logo: logoThrivee,
   },
   {
-    name: 'Animaginary',
+    name: 'Pamplona Negra',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
-  },
-  {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
+      'An Android App built with Java in 2018. A GPS minigame where you will have to discover the mystery that the city of Pamplona hides based on riddles.',
+    link: { href: 'https://play.google.com/store/apps/details?id=org.cuatrovientos.app.pamplonanegra&pli=1', label: 'Play Store' },
+    logo: logoPamplonaNegra,
+  }
 ]
 
 function LinkIcon(props) {
@@ -62,7 +38,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Javier Galera</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."
@@ -82,7 +58,7 @@ export default function Projects() {
                 <Image
                   src={project.logo}
                   alt=""
-                  className="h-8 w-8"
+                  className="h-8 w-8 object-contain"
                   unoptimized
                 />
               </div>

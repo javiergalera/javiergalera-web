@@ -65,8 +65,8 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved forging things for as long as I can remember, and
-                wrote my first program when I was 11 years old, a basic program that helped me memorize the subjects I hated the most (Ahem, literature, ahem!).
+                I’ve loved developing ideas for as long as I can remember, and
+                wrote my first program when I was 11 years old, a basic Java program that helped me memorize the subjects I hated the most (Ahem, literature, ahem!).
               </p>
               <p>
                 The only thing I loved as much as than computers as a kid was space and drawing.
@@ -76,18 +76,14 @@ export default function About() {
                 That day, I knew that I needed to create something big, create my own company.
               </p>
               <p>
-                I spent the next few summers writing down and drawing ideas, improving my programming skills, and of course, thinking about the name, and I came out with a temporary name, <em>ProjectDream</em>.<br />
+                I spent the next few years writing down and drawing ideas, improving my programming skills, and of course, studying Computer Science.<br />
+                During this time I won multiple CS Awards, like the Computer Olympics of Navarre. I also have tried many different technologies, from C# to Rust, but out of all of them, one stood out to me above all others. capturing my attention, Swift and the Apple ecosystem.<br />
               </p>
               <p>
-                When I was 16 years old, a movie came out in theaters, and a friend and I went to see it together, it was called <em>Interstellar.</em><br />
-                That movie became my favorite movie of all time that day.<br />
+                Since then I have specialized in Swift, from its open source libraries like Vapor, to Apple’s own libraries like CoreData, Combine, SwiftUI, etc.
               </p>
               <p>
-                The day after, my friend and I went for a walk in the middle of the night, we stargazed for some hours and we talked about the space.<br />
-                The space, filled with mistery and possibilities. And those stars were shining in that infinite black sky, a beacon of hope. They were guiding us for centuries. That night, I knew the name that my company should have.
-              </p>
-              <p>
-                Today, I’m an iOS Software Engineer and the founder of <b>Space</b>, where we’re working on <em>forging</em> the best products possible, with only one goal on mind, to help people reach the endless possibilities that this world offers — we are <em>forging stars</em>.
+                Today, I’m an iOS Software Engineer and the founder of <b>Space</b>, where we’re working on creating the best products possible, with only one goal on mind, to help people shine among others — we are <em>forging stars</em>.
               </p>
             </div>
           </div>
