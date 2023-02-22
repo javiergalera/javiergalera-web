@@ -24,6 +24,7 @@ import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
 
 import { useTranslation } from 'next-i18next'
+import { SimpleLayout } from '@/components/SimpleLayout'
 
 function MailIcon(props) {
   return (
@@ -161,7 +162,7 @@ function Resume() {
   ]
 
   return (
-    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Work</span>
@@ -169,7 +170,7 @@ function Resume() {
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
-            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-100 dark:ring-0">
               <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
@@ -257,7 +258,8 @@ export default function Home({ articles }) {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Javier, an iOS Software Developer and entrepeneur based in Spain. 
             I’m the founder and CEO of Space, where we forge
-            technologies with the goal of making a better world.
+            technologies with the goal of making a better world.<br /><br />
+            In my spare time i love to draw, develop new ideas, travel to beautiful landscapes and play some videogames.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -287,9 +289,14 @@ export default function Home({ articles }) {
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
+            {/*
             {articles.map((article) => (
               <Article key={article.slug} article={article} />
             ))}
+            */}
+            <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+              There are no entries yet.
+            </p>
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Resume/>
