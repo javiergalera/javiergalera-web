@@ -77,7 +77,7 @@ export default function About() {
               </p>
               <p>
                 I spent the next few years writing down and drawing ideas, improving my programming skills, and of course, studying Computer Science.<br />
-                During this time I won multiple CS Awards, like the Computer Olympics of Navarre. I also have tried many different technologies, from C# to Rust, but out of all of them, one stood out to me above all others. capturing my attention, Swift and the Apple ecosystem.<br />
+                During this time I won multiple CS Awards, like the Computer Olympics of Navarre. I also have tried many different technologies (Java, C#, Rust, TS, etc.), but out of all of them, one stood out to me above all others capturing my attention, Swift and the Apple ecosystem.<br />
               </p>
               <p>
                 Since then I have specialized in Swift, from its open source libraries like Vapor, to Apple’s own libraries like CoreData, Combine, SwiftUI, etc.
