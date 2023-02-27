@@ -9,6 +9,7 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
+  MastodonIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -91,6 +92,9 @@ export default function About() {
             <ul role="list">
               <SocialLink href="https://twitter.com/javiergalera98" icon={TwitterIcon}>
                 Follow on Twitter
+              </SocialLink>
+              <SocialLink href="https://mastodon.social/@javiergalera" icon={MastodonIcon} className="mt-4">
+                Follow on Mastodon
               </SocialLink>
               <SocialLink href="https://instagram.com/javiergalera98" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram

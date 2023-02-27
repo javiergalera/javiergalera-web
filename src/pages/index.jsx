@@ -11,6 +11,7 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
+  MastodonIcon,
 } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
@@ -266,6 +267,11 @@ export default function Home({ articles }) {
               href="https://twitter.com/javiergalera98"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
+            />
+            <SocialLink
+              href="https://mastodon.social/@javiergalera"
+              aria-label="Follow on Mastodon"
+              icon={MastodonIcon}
             />
             <SocialLink
               href="https://instagram.com/javiergalera98"
