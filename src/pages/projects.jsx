@@ -3,16 +3,16 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoThrivee from '@/images/logos/thrivee.svg'
+import logoInvoflow from '@/images/logos/invoflow.svg'
 import logoPamplonaNegra from '@/images/logos/pamplona-negra.png'
 
 const projects = [
   {
-    name: 'Thrivee',
+    name: 'Invoflow',
     description:
-      'An all-new iOS app to help you achieve your goals teaching you to focus on the journey, not the destination.',
-    link: { href: 'http://www.thrivee.app', label: 'Coming soon' },
-    logo: logoThrivee,
+      'An all-new iOS app to help small-local businesses streamline their processes and stand out from the rest.',
+    link: { href: '#', label: 'Coming soon' },
+    logo: logoInvoflow,
   },
   {
     name: 'Pamplona Negra',

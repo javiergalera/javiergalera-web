@@ -62,7 +62,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Javier Galera. I live in Spain, where I forge stars.
+              I’m Javier.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
@@ -70,18 +70,15 @@ export default function About() {
                 wrote my first program when I was 11 years old, a basic Java program that helped me memorize the subjects I hated the most (Ahem, literature, ahem!).
               </p>
               <p>
-                The only thing I loved as much as than computers as a kid was space and drawing.
+                The only thing I loved as much as computers as a kid was space and drawing.
                 I was so obsessed with space that I only thought about being an astronaut so I could explore everything out there.<br />
-                When I was 10, I stumbled upon a video of Steve Jobs talking about his vision about technology.
-                Something clicked on my head, I finally found someone who shared a similar vision to me. 
-                That day, I knew that I needed to create something big, create my own company.
               </p>
               <p>
-                I spent the next few years writing down and drawing ideas, improving my programming skills, and of course, studying Computer Science.<br />
-                During this time I won multiple CS Awards, like the Computer Olympics of Navarre. I also have tried many different technologies (Java, C#, Rust, TS, etc.), but out of all of them, one stood out to me above all others capturing my attention, Swift and the Apple ecosystem.<br />
+                I spent my days as a teenager writing down, drawing and prototyping ideas, improving my programming skills, and of course, studying Computer Science.<br />
+                During this time I won multiple CS Awards, like the Computer Olympics of Navarre. I also have tried many different technologies (Java, C#, Rust, TS, etc.), but out of all of them, one stood out to me above all others capturing my attention, Swift.<br />
               </p>
               <p>
-                Since then I have specialized in Swift, from its open source libraries like Vapor, to Apple’s own libraries like CoreData, Combine, SwiftUI, etc.
+                Since then I have specialized in Swift, from its open source libraries like Vapor, to Apple’s own libraries like CoreData, SwiftData, Combine, SwiftUI, Swift Macros, etc.
               </p>
               <p>
                 Today, I’m an iOS Software Engineer and the founder of <b>Space</b>, where we’re working on creating the best products possible, with only one goal on mind, to help people shine among others — we are <em>forging stars</em>.
