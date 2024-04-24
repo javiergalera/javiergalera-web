@@ -3,15 +3,15 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoInvoflow from '@/images/logos/invoflow.svg'
+import logoInvoflow from '@/images/logos/invoflow.png'
 import logoPamplonaNegra from '@/images/logos/pamplona-negra.png'
 
 const projects = [
   {
     name: 'Invoflow',
     description:
-      'An all-new iOS app to help small-local businesses streamline their processes and stand out from the rest.',
-    link: { href: '#', label: 'Coming soon' },
+      'A all-new iOS app forged in 2024. Invoflow helps small-local businesses create invoices easily and analyze their sales, completely free.',
+    link: { href: 'https://invoflow.spaceforgers.com', label: 'App Store' },
     logo: logoInvoflow,
   },
   {
