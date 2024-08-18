@@ -115,5 +115,5 @@ Contributions are welcome! If you have any suggestions or improvements, please f
 
 For any inquiries or feedback, feel free to reach out to me:
 
-- **Email**: [your.email@example.com](mailto:hello@javiergalera.com)
-- **LinkedIn**: [Javier Galera Robles](https://www.linkedin.com/in/javiergalera98/)
+- **Email**: [hello@javiergalera.com](mailto:hello@javiergalera.com)
+- **LinkedIn**: [Javier Galera](https://www.linkedin.com/in/javiergalera98/)
