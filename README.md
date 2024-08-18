@@ -31,14 +31,6 @@ The project is organized as follows:
 - `styles/`: Global styles and Tailwind CSS configuration.
 - `utils/`: Utility functions used across the site.
 
-## 📝 Recent Updates
-
-- Improved the content and structure for better SEO and user engagement.
-- Updated project descriptions to reflect the current status and availability.
-- Enhanced link handling to open external sites in new tabs with added security.
-- Removed the 'Uses' page for a cleaner navigation experience.
-- Updated the 'Download CV' button to provide a PDF download of my resume.
-
 ## 🔗 Getting Started
 
 ### Prerequisites
