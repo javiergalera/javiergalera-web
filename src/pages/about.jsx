@@ -66,7 +66,7 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-              Ever since I wrote my first program at 11—a simple Java application to help me memorize the subjects I wasn’t too keen on (looking at you, literature!)—I’ve been fascinated by the world of development.
+              Ever since I wrote my first program at 11 — a simple Java application to help me memorize the subjects I wasn’t too keen on (looking at you, literature!) — I’ve been fascinated by the world of development.
               </p>
               <p>
               Growing up, I was equally captivated by computers and space. I dreamed of becoming an astronaut to explore the universe, but when I wasn’t stargazing, I was diving deep into programming and design, constantly sketching out new ideas and bringing them to life.
