@@ -1,34 +1,119 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Javier Galera - Personal Portfolio Website
 
-## Getting Started
+Welcome to the repository for my personal portfolio website. This site is designed to showcase my work, share my professional journey, and provide an easy way to download my CV.
 
-First, run the development server:
+## 🚀 About the Project
+
+This portfolio serves as an online resume and project showcase, reflecting my expertise as an iOS Software Developer. The website highlights my professional background, projects, and skills, offering visitors a comprehensive view of my work and interests.
+
+### 🌟 Key Features
+
+- **Professional Introduction**: A brief yet engaging overview of who I am and what I do.
+- **Project Showcase**: Detailed descriptions of selected projects, with direct links to app stores or APK files for easy access.
+- **Downloadable CV**: A button that allows visitors to download my up-to-date CV in PDF format.
+- **Responsive Design**: Optimized for both desktop and mobile viewing, ensuring a great experience on any device.
+- **Dark Mode**: The website supports dark mode for a comfortable viewing experience in low-light conditions.
+
+## 🛠️ Technologies Used
+
+- **Next.js**: A powerful React framework for server-side rendering and static site generation.
+- **React**: The core library for building the website's user interface.
+- **Tailwind CSS**: A utility-first CSS framework for quickly styling the components.
+- **JavaScript (ES6+)**: For building interactive and dynamic UI components.
+
+## 📚 Project Structure
+
+The project is organized as follows:
+
+- `components/`: Contains reusable React components used throughout the website.
+- `pages/`: The main pages of the website, each representing a different route.
+- `public/`: Static assets such as images, fonts, and the CV PDF.
+- `styles/`: Global styles and Tailwind CSS configuration.
+- `utils/`: Utility functions used across the site.
+
+## 📝 Recent Updates
+
+- Improved the content and structure for better SEO and user engagement.
+- Updated project descriptions to reflect the current status and availability.
+- Enhanced link handling to open external sites in new tabs with added security.
+- Removed the 'Uses' page for a cleaner navigation experience.
+- Updated the 'Download CV' button to provide a PDF download of my resume.
+
+## 🔗 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** (v14 or later)
+- **npm** or **yarn**
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/javiergalera/javiergalera-web.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd javiergalera-web
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+   or
+
+   ```bash
+   yarn install
+   ```
+
+### Running the Project
+
+To start the development server, run:
 
 ```bash
 npm run dev
-# or
+```
+
+or
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` in your browser to view the site.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+To build the project for production, run:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run build
+```
 
-## Learn More
+or
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+yarn build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The optimized output will be in the `out/` directory, ready for deployment.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🤝 Contributing
 
-## Deploy on Vercel
+Contributions are welcome! If you have any suggestions or improvements, please feel free to submit a pull request or open an issue.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📫 Contact
+
+For any inquiries or feedback, feel free to reach out to me:
+
+- **Email**: [your.email@example.com](mailto:hello@javiergalera.com)
+- **LinkedIn**: [Javier Galera Robles](https://www.linkedin.com/in/javiergalera98/)
