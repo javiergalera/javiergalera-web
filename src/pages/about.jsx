@@ -66,22 +66,19 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved developing ideas for as long as I can remember, and
-                wrote my first program when I was 11 years old, a basic Java program that helped me memorize the subjects I hated the most (Ahem, literature, ahem!).
+              Ever since I wrote my first program at 11—a simple Java application to help me memorize the subjects I wasn’t too keen on (looking at you, literature!)—I’ve been fascinated by the world of development.
               </p>
               <p>
-                The only thing I loved as much as computers as a kid was space and drawing.
-                I was so obsessed with space that I only thought about being an astronaut so I could explore everything out there.<br />
+              Growing up, I was equally captivated by computers and space. I dreamed of becoming an astronaut to explore the universe, but when I wasn’t stargazing, I was diving deep into programming and design, constantly sketching out new ideas and bringing them to life.
               </p>
               <p>
-                I spent my days as a teenager writing down, drawing and prototyping ideas, improving my programming skills, and of course, studying Computer Science.<br />
-                During this time I won multiple CS Awards, like the Computer Olympics of Navarre. I also have tried many different technologies (Java, C#, Rust, TS, etc.), but out of all of them, one stood out to me above all others capturing my attention, Swift.<br />
+              As a teenager, I fully immersed myself in Computer Science, earning accolades like the Computer Olympics of Navarre. I experimented with various technologies — Java, C#, Rust, TypeScript — but it was <b>Swift</b> that truly captured my imagination.
               </p>
               <p>
-                Since then I have specialized in Swift, from its open source libraries like Vapor, to Apple’s own libraries like CoreData, SwiftData, Combine, SwiftUI, Swift Macros, etc.
+              I’ve since specialized in Swift, mastering everything from Apple’s core libraries like CoreData, Combine, and SwiftUI, to advanced features like async/await and Swift Concurrency. I’m also passionate about modular development with SPM and have explored server-side Swift with Vapor. Swift isn’t just my tool of choice — it’s the medium through which I push the boundaries of what’s possible.
               </p>
               <p>
-                Today, I’m an iOS Software Engineer and the founder of <b>Space</b>, where we’re working on creating the best products possible, with only one goal on mind, to help people shine among others — we are <em>forging stars</em>.
+              Today, I work as an iOS Software Engineer at Endalia, where I contribute to developing cutting-edge solutions. In parallel, I channel my creativity and passion for app development through Space — my personal venture. Space is where I experiment, innovate, and bring my own projects to life, all with the goal of helping people stand out. At Space, we’re all about forging stars.
               </p>
             </div>
           </div>

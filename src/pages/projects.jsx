@@ -10,15 +10,21 @@ const projects = [
   {
     name: 'Invoflow',
     description:
-      'A all-new iOS app forged in 2024. Invoflow helps small-local businesses create invoices easily and analyze their sales, completely free.',
-    link: { href: 'https://invoflow.spaceforgers.com', label: 'App Store' },
+      'Launched in 2024, Invoflow is a versatile app available on iOS, iPadOS, watchOS, and visionOS. Designed to empower small, local businesses, it simplifies invoice creation and provides insightful sales analysis, all for free.',
+    link: {
+      href: 'https://invoflow.spaceforgers.com',
+      label: 'Get on the App Store'
+    },
     logo: logoInvoflow,
   },
   {
     name: 'Pamplona Negra',
     description:
-      'An Android App built with Java in 2018. A GPS minigame where you will have to discover the mystery that the city of Pamplona hides based on riddles.',
-    link: { href: 'https://play.google.com/store/apps/details?id=org.cuatrovientos.app.pamplonanegra&pli=1', label: 'Play Store' },
+      'Originally developed in 2018 with Java, Pamplona Negra is an Android app that offers a GPS-based minigame. Discover the mysteries hidden within the city of Pamplona by solving riddles. Although the app has been removed from the Play Store, you can still download the APK below!',
+    link: {
+      href: '/downloads/pamplonanegra-1.1.apk',
+      label: 'Download APK'
+    },
     logo: logoPamplonaNegra,
   }
 ]
